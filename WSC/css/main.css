@@ -1,0 +1,514 @@
+
+/*--------------------------------
+   1. Typography
+---------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+/* Використовувати як    {font-family: 'Open Sans Condensed', sans-serif;}*/ 
+
+@font-face {
+    font-family: 'freesansoblique';
+    src: url('../fonts/freesansoblique-webfont.eot');
+    src: url('../fonts/freesansoblique-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/freesansoblique-webfont.woff2') format('woff2'),
+			 url('../fonts/freesansoblique-webfont.woff') format('woff'),
+			 url('../fonts/freesansoblique-webfont.ttf') format('truetype'),
+			 url('../fonts/freesansoblique-webfont.svg#freesansoblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'droid_sansregular';
+    src: url('../fonts/droidsans-webfont.eot');
+    src: url('../fonts/droidsans-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/droidsans-webfont.woff2') format('woff2'),
+			 url('../fonts/droidsans-webfont.woff') format('woff'),
+			 url('../fonts/droidsans-webfont.ttf') format('truetype'),
+			 url('../fonts/droidsans-webfont.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'afta_sansitalic';
+    src: url('../fonts/aftasansthin-italic-webfont.eot');
+    src: url('../fonts/aftasansthin-italic-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/aftasansthin-italic-webfont.woff2') format('woff2'),
+			 url('../fonts/aftasansthin-italic-webfont.woff') format('woff'),
+			 url('../fonts/aftasansthin-italic-webfont.ttf') format('truetype'),
+			 url('../fonts/aftasansthin-italic-webfont.svg#afta_sansitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*------ Navigation typography + form_search ---------*/
+.list__ancor {                /*  стилізація навігації  */
+	text-decoration: none;
+	color:#aaa7a4;
+	text-shadow: ;
+	text-transform: uppercase;
+	font-size: 14px;	
+	font-family: "Times New Roman", Times, serif;
+}
+.search__title{
+	font-size: 11px;
+	font-family: sans-serif; 
+	text-decoration: underline;
+	color:#aab2b9;
+}
+/*------ Header typography >>> заголовки, підзаголовки, параграф ---------*/
+.header__expect{
+	color:#d0d2d3;
+	font-size: 28px;
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 2px;
+	line-height:40px;
+	font-weight: 500;
+	margin: 50px 0 0 0;
+}
+.header__progress{
+	color:#26a9e0;
+	text-shadow: ;
+	font-size: 60px;
+	text-transform: uppercase;
+	font-family: Cambria, Georgia, serif;
+	letter-spacing: -2px;
+	line-height:40px;
+	font-style:italic;
+	margin: 0;
+}
+.header__paragraph{
+	color:#f5f8fa;
+	font-size: 13px;
+	text-shadow: ;
+	text-transform:none;
+	font-family:  'freesansoblique';
+	letter-spacing: 2px;
+}
+
+.header_read_more{
+	color:#f5f8fa;
+	font-size: 22px;
+	text-shadow: ;
+	text-transform:capitalize;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: normal;
+	line-height: 28px;
+	vertical-align: top;
+	float:right;
+	margin-right: 30px;
+	cursor: pointer;
+}
+.header_read_more img{
+	margin-left: 10px;
+	vertical-align: bottom;
+}
+/*------ Gallery typography---------*/
+.gallery__number{
+	color:#f5f8fa;
+	font-size: 25px;
+	text-shadow: ;
+	text-transform:capitalize;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: normal;
+	cursor: pointer;
+}
+/*------ Content typography ---------*/
+.content__h4{
+	color:#403d3e;
+	font-size: 29px;
+	text-shadow: ;
+	text-transform:capitalize;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: normal;
+	line-height:96px;
+	padding-left: 5px;
+	margin: 0;
+}
+.content__h5{
+	color:#095a84;
+	font-size: 28px;
+	text-shadow: ;
+	text-transform:capitalize;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: normal;
+	line-height:20px;
+	margin: 0;
+}
+.content__h6{
+	color:#403d3e;
+	font-size: 19px;
+	text-shadow: ;
+	text-transform:capitalize;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: normal;
+	line-height:50px;
+	margin: 0;
+}
+.content__p{
+	color:#6f7176;
+	font-size: 13px;
+	text-shadow: ;
+	text-transform:none;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 0.5px;
+	line-height:20px;
+	margin: 0;
+}
+.read_more{
+	color:#095a84;
+	font-size: 19px;
+	text-shadow: ;
+	text-transform:none;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 0.5px;
+	line-height:50px;
+	font-weight: 700;
+	margin:0;
+	padding-right: 12px;
+	cursor: pointer;
+}
+/*------ Prymery markets typography ---------*/
+.prymery{
+	line-height:60px;
+}
+.markets__cta{
+	color:#095a84;
+	font-size: 19px;
+	text-shadow: ;
+	text-transform:uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: normal;
+	font-weight: 500;
+	cursor: pointer;
+	-webkit-transition-property:background;
+	-moz-transition-property: background;
+	-o-transition-property: background;
+	transition-property: background;
+	-webkit-transition-duration: 1.5s;
+	-moz-transition-duration: 1.5s;
+	-o-transition-duration: 1.5s;
+	transition-duration: 1.5s;
+}
+.markets__cta:hover{
+	color:#f9fdff;
+	background: #095a84;
+}
+/*------ Footer  typography ---------*/
+.contact__paragraph,.copyright__paragraph{
+	font-family: 'droid_sansregular';
+	color:#bbbdbf;
+	font-size: 11px;
+}
+
+
+/* ---------------------------
+2. General Styles
+_--------------------------- */
+
+html {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #444444;
+	background: #ffffff;
+}
+/*--------------------------------
+3.Layout
+---------------------------------*/
+
+.conteiner {
+	position: relative;
+	width: 1532px;
+	margin: 0 auto;
+	background: #ffffff;
+	height:1040px ;
+}
+.section_head,.section_main { 
+	height: 530px;
+	background: #ffffff;
+	margin: 0 auto;
+}
+.section_main{
+	padding:0;
+}
+/*------ header ---------*/
+header {
+	margin: 0 auto;
+	width: 1163px;	
+	height: 521px;
+	background: url(../img/header.jpg) no-repeat;
+	border-bottom: 10px solid  #095a84;
+	z-index: 5;
+	position: relative;
+}
+/*------ navigation  background---------*/
+.nav_bg{
+	position: absolute;
+	height: 95px;
+	background: #000;
+}
+/*------ header backgrounds---------*/
+.back{
+	opacity: .3;
+	z-index: 4;
+	width: 100%;
+}
+.front{
+	opacity: .3;
+	z-index: 4;
+	width: 100%;
+}
+.section_head{
+	background: url(../img/bg_great_blue.jpg) no-repeat;
+}
+/*------ navigation  layout ---------*/
+.navigation{
+	padding-top: 95px;
+	float: left;
+	padding-left: 90px;
+	position: absolute;
+	top:-75px;
+	z-index: 20;
+}
+.navigation__list{
+	display: inline-block;
+	float:left;
+	padding-left:15px;
+}
+.list__ancor {
+	opacity: 1.0;
+}
+.list__ancor:hover{
+	color:#fffdfb;
+}
+/*------ form search  layout ---------*/
+.search{
+	padding-top: 95px;
+	float: right;
+	padding-right: 90px;
+	position: absolute;
+	top:-80px;
+	left: 70%;
+	z-index: 20;
+}
+ .search__title{
+	padding: 0;
+	margin: 0;
+}
+.search__input{
+	width: 186px;
+	height: 26px;
+	background: #c9cfd5;
+	border-radius: 4px;
+}
+/*------ Logo ---------*/
+.logo_bg{
+	position: absolute;
+	height: 100%;
+	width: 383px;
+	background: url(../img/bg_texture.jpg);
+	opacity: 0.7;
+	top:0;
+	left:60%;
+}
+.logo__conteiner{
+	position: absolute;
+	height: 100%;
+	width: 383px;
+	opacity: 1;
+	top:0;
+	left:60%;
+}	
+.logo{
+	position: absolute;
+    width: 316px;
+    margin-top: 27px;
+    height: 97px;
+    background-image: url(../img/Logo.png);
+    background-repeat: no-repeat;
+	background-position: center;
+	top:20%;
+}
+.logo strong a{
+	width: 316px;
+    margin-top: 27px;
+    height: 97px;
+	display: block;
+    overflow:hidden;
+    text-indent: -9999px;
+}
+
+/*------ Header text elements  ---------*/
+.header__article{
+	position: absolute;
+	top:40%;
+	opacity: 1;
+	z-index: 10;
+	color:white;
+	padding-left: 19px;
+}
+.gallery_navigation{
+	position:absolute;
+	top:90%;
+	left:10%;
+	color:azure;
+	font-size: 24px;
+}
+/*------ Content elements  ---------*/
+.main__content{
+	padding: 15px 265px 15px 265px;
+	background: white;
+	min-height: 252px;
+}
+.content__left {
+	width: 495px;
+	float:left;
+	min-height: 252px;
+}
+.doors{
+	float: left;
+	margin: 0 30px 0 0;
+}
+
+.content__right{
+	width: 405px;
+	float:right;
+	min-height: 240px;
+	padding-left: 90px;
+}
+/*------ Prymery markets - call-to-action ---------*/
+.main__markets{
+	padding: 15px 265px 15px 265px;
+	background: white;
+	min-height: 150px;
+	width: 
+	border: 1px solid black;
+	margin-left:-10px;
+	margin-right: -10px;
+}
+.markets__cta{
+	display: block;
+	width: 200px;
+	height: 93px;
+	float: left;
+	margin-left: 10px;
+	background: #f5f5f7;
+	border-radius: 3px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 93px;
+	position: relative;
+	padding-left:40px;
+}
+/*------ Footer layout ---------*/
+footer{
+	height: 120px;
+}
+.contact {
+	float: left;
+	padding-left: 38%;
+	padding-right: 20px;
+}
+
+/*-------------------------------------------------
+Grafic elements styling....
+---------------------------------------------------*/
+.arrov__right{
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	background-image: url(../img/arrow_right_blue.png)
+}
+.read_more{
+	line-height: 21px;
+	vertical-align: top;
+}
+.sprite {
+	background-image: url(../img/spritesheet.png);
+	background-repeat: no-repeat;
+	display:block;
+	position: absolute;
+}
+.sprite-drinking_water {
+	width: 38px;
+	height: 38px;
+	background-position: -12px -197px;
+	position: absolute;
+	top:25%;
+}
+.sprite-wastewoter {
+	width: 49px;
+	height: 49px;
+	background-position: -12px -643px;
+	position: absolute;
+	top:25%;
+}
+.sprite-w_resycled {
+	width: 49px;
+	height: 46px;
+	background-position: -12px -573px;
+	position: absolute;
+	top:23%;
+	left:13%
+}
+.sprite-w_resourse {
+	width: 42px;
+	height: 59px;
+	background-position: -12px -490px;
+	position: absolute;
+	top:15%;
+	left:13%
+}
+/*-------------------------------------------------
+Footer
+---------------------------------------------------*/
+.social_conteiner {
+	margin-left: 30px;
+}
+.social {
+	width: 36px;
+	height: 35px;
+	float: left;
+	margin-left: 5px;
+	cursor: pointer;
+}
+.facebook {
+	background-image: url(../img/facebook.png);
+}
+.twitter {
+	background-image: url(../img/twitter.png);
+}
+.in {
+	background-image: url(../img/in.png);
+}
+/*-------------------------------------------------
+Clearfix - очитка флоатів
+---------------------------------------------------*/
+.clearfix:before, 
+.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear:both;
+}
+.clearfix {
+    zoom: 1; /* For IE6/7 (has layout) */
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
