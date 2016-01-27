@@ -42,7 +42,7 @@
 .list__ancor {                /*  стилізація навігації  */
 	text-decoration: none;
 	color:#aaa7a4;
-	text-shadow:2px 2px red;
+	text-shadow:1px 1px black;
 	text-transform: uppercase;
 	font-size: 14px;	
 	font-family: "Times New Roman", Times, serif;
@@ -66,7 +66,7 @@
 }
 .header__progress{
 	color:#26a9e0;
-	text-shadow: 4px 1px 2px rgba(54, 50, 50, 0.76);
+	text-shadow: 2px 2px 3px rgba(20, 19, 19, 0.76);
 	font-size: 60px;
 	text-transform: uppercase;
 	font-family: Cambria, Georgia, serif;
@@ -78,7 +78,7 @@
 .header__paragraph{
 	color:#f5f8fa;
 	font-size: 13px;
-	text-shadow:2px 1px 2px rgba(54, 50, 50, 0.76);
+	text-shadow:1px 1px 1px rgba(2, 2, 2, 0.76);
 	text-transform:none;
 	font-family:  'freesansoblique';
 	letter-spacing: 2px;
@@ -87,7 +87,7 @@
 .header_read_more{
 	color:#f5f8fa;
 	font-size: 22px;
-	text-shadow: 2px 1px 2px rgba(54, 50, 50, 0.76); 
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.76); 
 	text-transform:capitalize;
 	font-family: 'Open Sans Condensed', sans-serif;
 	letter-spacing: normal;
@@ -105,8 +105,6 @@
 .gallery__number{
 	color:#f5f8fa;
 	font-size: 25px;
-	text-shadow:2px 1px 2px rgba(54, 50, 50, 0.76);
-	text-transform:capitalize;
 	font-family: 'Open Sans Condensed', sans-serif;
 	letter-spacing: normal;
 	cursor: pointer;
@@ -115,10 +113,8 @@
 .content__h4{
 	color:#403d3e;
 	font-size: 29px;
-	text-shadow: 2px 1px 2px rgba(54, 50, 50, 0.76);
 	text-transform:capitalize;
 	font-family: 'Open Sans Condensed', sans-serif;
-	letter-spacing: normal;
 	line-height:96px;
 	padding-left: 5px;
 	margin: 0;
@@ -126,7 +122,6 @@
 .content__h5{
 	color:#095a84;
 	font-size: 28px;
-	text-shadow:1px 1px 2px rgba(54, 50, 50, 0.76);
 	text-transform:capitalize;
 	font-family: 'Open Sans Condensed', sans-serif;
 	letter-spacing: normal;
@@ -136,7 +131,6 @@
 .content__h6{
 	color:#403d3e;
 	font-size: 19px;
-	text-shadow: 2px 1px 2px rgba(54, 50, 50, 0.76);
 	text-transform:capitalize;
 	font-family: 'Open Sans Condensed', sans-serif;
 	letter-spacing: normal;
@@ -146,7 +140,6 @@
 .content__p{
 	color:#6f7176;
 	font-size: 13px;
-	text-shadow: 2px 1px 2px rgba(54, 50, 50, 0.76);
 	text-transform:none;
 	font-family: 'Open Sans Condensed', sans-serif;
 	letter-spacing: 0.5px;
@@ -156,7 +149,6 @@
 .read_more{
 	color:#095a84;
 	font-size: 19px;
-	text-shadow: 2px 1px 2px rgba(54, 50, 50, 0.76);
 	text-transform:none;
 	font-family: 'Open Sans Condensed', sans-serif;
 	letter-spacing: 0.5px;
@@ -173,7 +165,6 @@
 .markets__cta{
 	color:#095a84;
 	font-size: 19px;
-	text-shadow: 2px 1px 2px rgba(54, 50, 50, 0.76);
 	text-transform:uppercase;
 	font-family: 'Open Sans Condensed', sans-serif;
 	letter-spacing: normal;
