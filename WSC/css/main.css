@@ -39,7 +39,7 @@
     font-style: normal;
 }
 /*------ Navigation typography + form_search ---------*/
-.list__ancor {                /*  стилізація навігації  */
+.list__anchor {                /*  стилізація навігації  */
 	text-decoration: none;
 	color:#aaa7a4;
 	text-shadow:1px 1px black;
