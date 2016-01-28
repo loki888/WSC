@@ -205,12 +205,10 @@ body {
 	font-size: 14px;
 	line-height: 20px;
 	color: #444444;
-	background: #ffffff;
 }
 /*--------------------------------
 3.Layout
 ---------------------------------*/
-
 .conteiner {
 	position: relative;
 	width: 1532px;
@@ -219,8 +217,9 @@ body {
 	background: #ffffff;
 	background: url(../img/bg_great_blue.jpg) no-repeat;
 	background-position: top;
+	
 }
-.section_head,.section_main { 
+.section_main { 
 	height: 530px;
 	margin: 0 auto;
 }
@@ -235,57 +234,45 @@ header {
 	height: 521px;
 	background: url(../img/header.jpg) no-repeat;
 	border-bottom: 10px solid  #095a84;
-	z-index: 5;
 	position: relative;
 }
 /*------ navigation  background---------*/
-.nav_bg{
-	position: absolute;
+nav{
 	height: 95px;
-	background: #000;
-}
-/*------ header backgrounds---------*/
-.back{
-	opacity: .3;
-	z-index: 4;
+	background-image: url(../img/nav_bg.png);
 	width: 100%;
+	position: absolute;
+	z-index: 2;
 }
-.front{
-	opacity: .3;
-	z-index: 4;
-	width: 100%;
-}
+
 /*
+
 
 /*------ navigation  layout ---------*/
 .navigation{
-	padding-top: 95px;
 	float: left;
-	padding-left: 90px;
-	position: absolute;
-	top:-75px;
-	z-index: 20;
+	padding-left: 245px;
 }
 .navigation__list{
 	display: inline-block;
 	float:left;
+	padding-top: 25px;
 	padding-left:15px;
 }
-.list__ancor {
-	opacity: 1.0;
+.list__anchor {
+	color:rgba(235, 221, 221, 0.75) ;
 }
-.list__ancor:hover{
-	color:#fffdfb;
+
+.list__anchor:hover{
+	color:#fff;
+	
 }
 /*------ form search  layout ---------*/
 .search{
-	padding-top: 95px;
+	padding-top: 18px;
 	float: right;
-	padding-right: 90px;
-	position: absolute;
-	top:-80px;
-	left: 72%;
-	z-index: 20;
+	padding-right: 210px;
+
 }
  .search__title{
 	padding-left: 49%;
