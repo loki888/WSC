@@ -87,6 +87,7 @@
 }
 
 .header_read_more{
+	text-decoration: none;
 	color:#f5f8fa;
 	font-size: 22px;
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.76); 
@@ -104,6 +105,13 @@
 	vertical-align: bottom;
 }
 /*------ Gallery typography---------*/
+.gallery__number,.gallery__left,.gallery__right{
+	display: inline-block;
+}
+.gallery__number>a{
+	color: white;
+	text-decoration: none;
+}
 .gallery__number{
 	color:#f5f8fa;
 	font-size: 25px;
@@ -111,32 +119,36 @@
 	letter-spacing: normal;
 	cursor: pointer;
 }
+.prev,.next{
+	display:inline-block;
+	width: 24px;
+	height: 22px;
+}
+.prev{
+	background-image: url(../img/arrow_grey_left.png) no-repeat;
+}
+.next{
+	background-image: url(../img/arrow_grey_right.png) no-repeat;
+}
+
 /*------ Content typography ---------*/
 .content__h4{
 	color:#403d3e;
 	font-size: 29px;
-	text-transform:capitalize;
 	font-family: 'Open Sans Condensed', sans-serif;
-	line-height:96px;
 	padding-left: 5px;
 	margin: 0;
 }
 .content__h5{
 	color:#095a84;
 	font-size: 28px;
-	text-transform:capitalize;
 	font-family: 'Open Sans Condensed', sans-serif;
-	letter-spacing: normal;
-	line-height:20px;
 	margin: 0;
 }
 .content__h6{
 	color:#403d3e;
 	font-size: 19px;
-	text-transform:capitalize;
 	font-family: 'Open Sans Condensed', sans-serif;
-	letter-spacing: normal;
-	line-height:50px;
 	margin: 0;
 }
 .content__p{
@@ -229,7 +241,7 @@ body {
 }
 
 /*------ header ---------*/
-header {
+.header_gallery {
 	margin: 0 auto;
 	width: 1163px;	
 	height: 521px;
@@ -321,19 +333,21 @@ nav{
 	padding-left: 19px;
 }
 .gallery_navigation{
+	display: block;
 	position:absolute;
-	top:90%;
-	left:10%;
+	top:87%;
+	left:5%;
 	color:azure;
 	font-size: 24px;
 }
 /*------ Content elements  ---------*/
 .main__content{
-	padding: 15px 265px 15px 265px;
+	margin: 0 auto;
+	width: 1163px;	
 	min-height: 252px;
 }
 .content__left {
-	width: 495px;
+	width: 575px;
 	float:left;
 	min-height: 252px;
 }
@@ -343,7 +357,7 @@ nav{
 }
 
 .content__right{
-	width: 405px;
+	width: 490px;
 	float:right;
 	min-height: 240px;
 	padding-left: 90px;

@@ -28,7 +28,7 @@
 					<!--Навігація END -->
 					
 	
-			<header>
+			<header class="header_gallery">
 				<div class="logo__conteiner">
 					<div class="logo">
 						<strong><a href="#">WSC - water syctems consalting, inc.</a></strong>
@@ -40,22 +40,23 @@
 						<p class="header__paragraph">
 						The Carmel River Reroute and San Clemente Dam Removal Project resolves a longstanding public safety concern while enhancing fish passage, sediment transport, and ecological continuity.
 						</p>
-						<span class="header_read_more">read more<img src="img/arrow_grey_right.png" alt=""></span>
+						<a href ="#" class="header_read_more">read more<img src="img/arrow_grey_right.png" alt=""></a>
 					</article>
 					<!--Коротке резюме інформації про компанію, як частина логотипу-->
 				</div>
 <!--END LOGO-->
 			<!--Коротке резюме інформації про компанію, як частина логотипу-->
 			<!--Galery START. Фон headera - галерея -->
-				<div class="gallery_navigation">
-					<span class = "gallery__left"><img src="img/arrow_grey_left.png" alt=""></span>
-					<span class = "gallery__number">1</span>
-					<span class = "gallery__number">2</span>
-					<span class = "gallery__number">3</span>
-					<span class = "gallery__number">4</span>
-					<span class = "gallery__number">5</span>
-					<span class = "gallery__right"><img src="img/arrow_grey_right.png" alt=""></span>
-				</div>
+				<ul class="gallery_navigation">
+					<li class = "gallery__left"><a href="#" class="prev"></a></li> <!--Але теппер не выдображаэться стрілка  -->
+					<li  class = "gallery__number"><a href="#" class="first">1</a></li>
+					<li  class = "gallery__number"><a href="#" class="second">2</a></li>
+					<li  class = "gallery__number"><a href="#" class="third">3</a></li>
+					<li  class = "gallery__number"><a href="#" class=" forth">4</a></li>
+					<li  class = "gallery__number"><a href="#" class=" fives">5</a></li>
+					<li  class = "gallery__right"><a href="#" class="next"></a></li>
+				</ul>
+				
 				<!--Galery END. Фон headera - галерея -->
 			</header>
 <!--HEADER END -->
@@ -109,5 +110,8 @@
 		</footer>
 <!--FOOTER END-->
 	</div>
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
