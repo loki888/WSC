@@ -57,13 +57,13 @@
 /*------ Header typography >>> заголовки, підзаголовки, параграф ---------*/
 .header__expect{
 	color:#d0d2d3;
-	font-size: 28px;
+	font-size: 30px;
 	text-transform: uppercase;
 	font-family: 'Open Sans Condensed', sans-serif;
 	letter-spacing: 2px;
 	line-height:40px;
 	font-weight: 500;
-	margin: 50px 0 0 0;
+	margin: 20px 0 0 0;
 }
 .header__progress{
 	color:#26a9e0;
@@ -82,7 +82,8 @@
 	text-shadow:1px 1px 1px rgba(2, 2, 2, 0.76);
 	text-transform:none;
 	font-family:  'freesansoblique';
-	letter-spacing: 2px;
+	letter-spacing: 1px;
+	padding-right: 5px;
 }
 
 .header_read_more{
@@ -92,7 +93,7 @@
 	text-transform:capitalize;
 	font-family: 'Open Sans Condensed', sans-serif;
 	letter-spacing: normal;
-	line-height: 28px;
+	line-height: 20px;
 	vertical-align: top;
 	float:right;
 	margin-right: 30px;
@@ -275,7 +276,7 @@ nav{
 
 }
  .search__title{
-	padding-left: 49%;
+	padding-left: 48.5%;
 	margin: 0;
 }
 .search__input{
@@ -286,31 +287,24 @@ nav{
 }
 /*------ Logo ---------*/
 .logo_bg{
-	position: absolute;
 	height: 100%;
 	width: 383px;
-	background: url(../img/bg_texture.jpg);
-	opacity: 0.7;
-	top:0;
-	left:60%;
+	background: url(../img/bg_texture.png);
 }
 .logo__conteiner{
-	position: absolute;
 	height: 100%;
 	width: 383px;
-	opacity: 1;
-	top:0;
-	left:60%;
+	background: url(../img/bg_texture.png);
+	float: right;
+	margin-right: 85px;
 }	
 .logo{
-	position: absolute;
-    width: 316px;
-    margin-top: 27px;
+    width: 383px;
+    margin-top: 130px;
     height: 97px;
     background-image: url(../img/Logo.png);
     background-repeat: no-repeat;
-	background-position: center;
-	top:20%;
+	background-position: 60% 50%;
 }
 .logo strong a{
 	width: 316px;
@@ -323,10 +317,6 @@ nav{
 
 /*------ Header text elements  ---------*/
 .header__article{
-	position: absolute;
-	top:40%;
-	opacity: 1;
-	z-index: 10;
 	color:white;
 	padding-left: 19px;
 }
@@ -395,7 +385,7 @@ Grafic elements styling....
 .arrov__right{
 	display: inline-block;
 	width: 22px;
-	height: 22px;
+	height: 21px;
 	background-image: url(../img/arrow_right_blue.png)
 }
 .read_more{
