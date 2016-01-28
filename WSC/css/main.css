@@ -215,17 +215,19 @@ body {
 	position: relative;
 	width: 1532px;
 	margin: 0 auto;
-	background: #ffffff;
 	height:1040px ;
+	background: #ffffff;
+	background: url(../img/bg_great_blue.jpg) no-repeat;
+	background-position: top;
 }
 .section_head,.section_main { 
 	height: 530px;
-	background: #ffffff;
 	margin: 0 auto;
 }
 .section_main{
 	padding:0;
 }
+
 /*------ header ---------*/
 header {
 	margin: 0 auto;
@@ -253,9 +255,11 @@ header {
 	z-index: 4;
 	width: 100%;
 }
+/*
 .section_head{
 	background: url(../img/bg_great_blue.jpg) no-repeat;
 }
+*/
 /*------ navigation  layout ---------*/
 .navigation{
 	padding-top: 95px;
@@ -352,7 +356,6 @@ header {
 /*------ Content elements  ---------*/
 .main__content{
 	padding: 15px 265px 15px 265px;
-	background: white;
 	min-height: 252px;
 }
 .content__left {
@@ -374,7 +377,6 @@ header {
 /*------ Prymery markets - call-to-action ---------*/
 .main__markets{
 	padding: 15px 265px 15px 265px;
-	background: white;
 	min-height: 150px;
 	margin-left:-10px;
 	margin-right: -10px;
