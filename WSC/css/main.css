@@ -41,7 +41,8 @@
 body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size:100%/1.5em;
-	color: #444;
+	line-height: 20px;
+	color: #444444;
 }
 
 /*------ Navigation typography + form_search ---------*/
@@ -230,9 +231,9 @@ body{
 }
 .conteiner {
 	position: relative;
-	width: 100%;
+	width: 1532px;
 	margin: 0 auto;
-	height:67.885%;
+	height:1040px ;
 }
 .section_main { 
 	height: auto;
@@ -245,15 +246,15 @@ body{
 /*------ header ---------*/
 .header_gallery {
 	margin: 0 auto;
-	width: 75.91%;	
-	height: 34.007%;
+	width: 1163px;	
+	height: 521px;
 	background: url(../img/header.jpg) no-repeat;
 	border-bottom: 10px solid  #095a84;
 	position: relative;
 }
 /*------ navigation  background---------*/
 nav{
-	height: 6.201%;
+	height: 95px;
 	background-image: url(../img/nav_bg.png);
 	width: 100%;
 	position: absolute;
@@ -266,13 +267,13 @@ nav{
 /*------ navigation  layout ---------*/
 .navigation{
 	float: left;
-	padding-left: 15,99%;
+	padding-left: 245px;
 }
 .navigation__list{
 	display: inline-block;
 	float:left;
-	padding-top: 1.63%;
-	padding-left:0.9791%;
+	padding-top: 25px;
+	padding-left:15px;
 }
 .list__anchor {
 	color:rgba(235, 221, 221, 0.75) ;
@@ -284,9 +285,9 @@ nav{
 }
 /*------ form search  layout ---------*/
 .search{
-	padding-top: 1.175%;
+	padding-top: 18px;
 	float: right;
-	padding-right:19.58%;
+	padding-right:300px;
 
 }
  .search__title{
@@ -294,8 +295,8 @@ nav{
 	margin: 0;
 }
 .search__input{
-	width: 12.14%;
-	height: 0.065%;
+	width: 186px;
+	height: 26px;
 	background: #c9cfd5;
 	border-radius: 6px;
 }
