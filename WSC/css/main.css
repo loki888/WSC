@@ -137,6 +137,7 @@
 	font-size: 29px;
 	font-family: 'Open Sans Condensed', sans-serif;
 	padding-left: 5px;
+	padding-bottom: 20px;
 	margin: 0;
 }
 .content__h5{
@@ -144,12 +145,15 @@
 	font-size: 28px;
 	font-family: 'Open Sans Condensed', sans-serif;
 	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 12px;
 }
 .publication_date{
 	color:#403d3e;
 	font-size: 19px;
 	font-family: 'Open Sans Condensed', sans-serif;
 	margin: 0;
+	padding-bottom: 11px;
 }
 .content__p{
 	color:#6f7176;
@@ -158,6 +162,7 @@
 	font-family: 'Open Sans Condensed', sans-serif;
 	letter-spacing: 0.5px;
 	margin: 0;
+	padding-bottom: 15px;
 }
 .read_more{
 	text-decoration: none;
@@ -347,6 +352,7 @@ nav{
 	width: 575px;
 	float:left;
 	min-height: 252px;
+	padding-top: 25px;
 }
 .content_image{
 	float: left;
@@ -358,6 +364,7 @@ nav{
 	float:right;
 	min-height: 240px;
 	padding-left: 90px;
+	padding-top: 25px;
 }
 /*------ Prymery markets - call-to-action ---------*/
 .main__markets{
@@ -395,7 +402,7 @@ Grafic elements styling....
 .arrov__right{
 	display: inline-block;
 	width: 22px;
-	height: 21px;
+	height: 22px;
 	background-image: url(../img/arrow_right_blue.png)
 }
 .read_more{
