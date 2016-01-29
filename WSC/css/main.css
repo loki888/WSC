@@ -222,15 +222,15 @@ body {
 /*--------------------------------
 3.Layout
 ---------------------------------*/
+body{
+	background: url(../img/bg_great_blue.jpg) no-repeat;
+	background-position: top;
+}
 .conteiner {
 	position: relative;
 	width: 1532px;
 	margin: 0 auto;
 	height:1040px ;
-	background: #ffffff;
-	background: url(../img/bg_great_blue.jpg) no-repeat;
-	background-position: top;
-	
 }
 .section_main { 
 	height: 530px;
