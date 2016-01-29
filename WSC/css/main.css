@@ -38,6 +38,13 @@
     font-weight: normal;
     font-style: normal;
 }
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:100%/1.5em;
+	line-height: 20px;
+	color: #444444;
+}
+
 /*------ Navigation typography + form_search ---------*/
 .list__anchor {                /*  стилізація навігації  */
 	text-decoration: none;
@@ -157,8 +164,7 @@
 }
 .content__p{
 	color:#6f7176;
-	font-size: 13px;
-	text-transform:none;
+	font-size: 11px;
 	font-family: 'Open Sans Condensed', sans-serif;
 	letter-spacing: 0.5px;
 	margin: 0;
@@ -215,12 +221,7 @@ html {
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
 }
-body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 14px;
-	line-height: 20px;
-	color: #444444;
-}
+
 /*--------------------------------
 3.Layout
 ---------------------------------*/
@@ -235,7 +236,7 @@ body{
 	height:1040px ;
 }
 .section_main { 
-	height: 530px;
+	height: auto;
 	margin: 0 auto;
 }
 .section_main{
@@ -286,11 +287,11 @@ nav{
 .search{
 	padding-top: 18px;
 	float: right;
-	padding-right: 210px;
+	padding-right:300px;
 
 }
  .search__title{
-	padding-left: 48.5%;
+	padding-left: 70%;
 	margin: 0;
 }
 .search__input{
@@ -345,13 +346,15 @@ nav{
 /*------ Content elements  ---------*/
 .main__content{
 	margin: 0 auto;
-	width: 1163px;	
-	min-height: 252px;
+	width: 1003px;	
+	min-height: 180px;
+	padding-left: 80px;
+	padding-right: 80px;
 }
 .content__left {
-	width: 575px;
+	width: 495px;
 	float:left;
-	min-height: 252px;
+	min-height: 180px;
 	padding-top: 25px;
 }
 .content_image{
@@ -360,35 +363,44 @@ nav{
 }
 
 .content__right{
-	width: 490px;
-	float:right;
-	min-height: 240px;
+	width: 410px;
+	float: right;
+	min-height: 180px;
 	padding-left: 90px;
 	padding-top: 25px;
 }
 /*------ Prymery markets - call-to-action ---------*/
 .main__markets{
-	padding: 15px 265px 15px 265px;
+	width: 996px;
+	padding: 15px 0px 15px 0px;
 	min-height: 150px;
-	margin-left:-10px;
-	margin-right: -10px;
+	margin: 0 auto;
 }
 .markets__cta{
 	display: block;
-	width: 200px;
+	width: 195px;
 	height: 53px;
 	float: left;
 	margin-left: 10px;
 	background: #f5f5f7;
-	border-radius: 3px;
+	border-radius: 5px;
 	text-align: center;
 	position: relative;
 	padding-left: 40px;
 	padding-top: 40px;
 }
+.markets__cta:first-child{
+	margin-left: 0;
+}{
+	margin-left: 0;
+}
+.markets__cta::last-child{
+	margin-right: 0;
+}
 /*------ Footer layout ---------*/
 footer{
-	height: 120px;
+	padding-top: 40px;
+	height: 80px;
 }
 .contact {
 	float: left;
@@ -452,6 +464,7 @@ Footer
 ---------------------------------------------------*/
 .social_conteiner {
 	margin-left: 30px;
+	margin-top: -15px;
 }
 .social__list{
 	display: inline-block;
