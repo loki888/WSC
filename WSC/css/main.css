@@ -189,9 +189,9 @@ body {
 	text-decoration: none;
 	text-transform: uppercase;
 	color:#095a84;
-	font-size: 19px;
+	font-size: 18px;
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-weight: 500;
+	font-weight: 300;
 	-webkit-transition-property:background;
 	-moz-transition-property: background;
 	-o-transition-property: background;
@@ -230,10 +230,10 @@ body{
 	background-position: top;
 }
 .conteiner {
-	position: relative;
-	width: 1532px;
-	margin: 0 auto;
-	height:1040px ;
+	 position: relative;
+    width: 1003px;
+    margin: 0 auto;
+    height: 1040px;
 }
 .section_main { 
 	height: auto;
@@ -245,20 +245,22 @@ body{
 
 /*------ header ---------*/
 .header_gallery {
-	margin: 0 auto;
-	width: 1163px;	
-	height: 521px;
-	background: url(../img/header.jpg) no-repeat;
-	border-bottom: 10px solid  #095a84;
-	position: relative;
+	margin: 0 -80px;
+    width: 1163px;
+    height: 521px;
+    background: url(../img/header.jpg) no-repeat;
+    border-bottom: 10px solid #095a84;
+    position: relative;
 }
 /*------ navigation  background---------*/
 nav{
-	height: 95px;
-	background-image: url(../img/nav_bg.png);
-	width: 100%;
-	position: absolute;
-	z-index: 2;
+	 height: 95px;
+    background-image: url(../img/nav_bg.png);
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+	margin: 1px -234px;
 }
 
 /*
@@ -311,7 +313,7 @@ nav{
 	width: 383px;
 	background: url(../img/bg_texture.png);
 	float: right;
-	margin-right: 85px;
+	margin-right: 118px;
 }	
 .logo{
     width: 383px;
@@ -339,23 +341,22 @@ nav{
 	display: block;
 	position:absolute;
 	top:87%;
-	left:5%;
+	left:9%;
 	color:azure;
 	font-size: 24px;
 }
 /*------ Content elements  ---------*/
 .main__content{
 	margin: 0 auto;
-	width: 1003px;	
-	min-height: 180px;
-	padding-left: 80px;
-	padding-right: 80px;
+    width: 1003px;
+    min-height: 180px;
 }
 .content__left {
-	width: 495px;
-	float:left;
-	min-height: 180px;
-	padding-top: 25px;
+    width: 456px;
+    float: left;
+    min-height: 180px;
+    padding-top: 25px;
+    padding-left: 45px;
 }
 .content_image{
 	float: left;
@@ -364,30 +365,30 @@ nav{
 
 .content__right{
 	width: 410px;
-	float: right;
-	min-height: 180px;
-	padding-left: 90px;
-	padding-top: 25px;
+    float: right;
+    min-height: 180px;
+    padding-top: 25px;
+    padding-right: 45px;
 }
 /*------ Prymery markets - call-to-action ---------*/
 .main__markets{
-	width: 996px;
-	padding: 15px 0px 15px 0px;
-	min-height: 150px;
-	margin: 0 auto;
+	width: 928px;
+    padding: 15px 0px 15px 0px;
+    min-height: 150px;
+    margin: 0 auto;
 }
 .markets__cta{
 	display: block;
-	width: 195px;
-	height: 53px;
-	float: left;
-	margin-left: 10px;
-	background: #f5f5f7;
-	border-radius: 5px;
-	text-align: center;
-	position: relative;
-	padding-left: 40px;
-	padding-top: 40px;
+    width: 185px;
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+    background: #f5f5f7;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    padding-left: 33px;
+    padding-top: 40px;
 }
 .markets__cta:first-child{
 	margin-left: 0;
@@ -434,16 +435,18 @@ Grafic elements styling....
 	position: absolute;
 }
 .sprite-drinking_water {
-	width: 38px;
-	height: 38px;
-	background-position: -12px -197px;
-	top:25%;
+    width: 40px;
+    height: 38px;
+    background-position: -11px -197px;
+    top: 30%;
+    left: 27px;
 }
 .sprite-wastewoter {
 	width: 49px;
-	height: 49px;
-	background-position: -12px -643px;
-	top: 25%;
+    height: 49px;
+    background-position: -12px -643px;
+    top: 25%;
+    left: 23px;
 }
 .sprite-w_resycled {
 	width: 49px;
@@ -453,11 +456,11 @@ Grafic elements styling....
 	left:13%
 }
 .sprite-w_resourse {
-	width: 42px;
-	height: 59px;
-	background-position: -12px -490px;
-	top:15%;
-	left:13%
+	 width: 42px;
+    height: 59px;
+    background-position: -12px -490px;
+    top: 15%;
+    left: 8%;
 }
 /*-------------------------------------------------
 Footer
@@ -515,3 +518,8 @@ Clearfix - очитка флоатів
 
 
 
+
+.wrapper {
+	position: relative;
+	overflow: hidden;
+}

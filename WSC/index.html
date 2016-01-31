@@ -9,109 +9,113 @@
 </head>
 <body>
 	<div class="conteiner">
+		<div class="wrapper">
 
-		<!--Навігація START довелося винести за межі хедера, щоб зберегти необхідний ефект-->
-					<nav class="clearfix"> 
-						<ul class = "navigation clearfix">
-							<li class = "navigation__list"><a href="#" class = "list__anchor">About Us</a></li>
-							<li class = "navigation__list"><a href="#" class = "list__anchor">Markets &amp; Services</a></li>
-							<li class = "navigation__list"><a href="#" class = "list__anchor">You WSC Team</a></li>
-							<li class = "navigation__list"><a href="#" class = "list__anchor">News &amp; Insights</a></li>
-							<li class = "navigation__list"><a href="#" class = "list__anchor">Contact</a></li>
-						</ul>
+			<!--Навігація START довелося винести за межі хедера, щоб зберегти необхідний ефект-->
+						<nav class="clearfix"> 
+							<ul class = "navigation clearfix">
+								<li class = "navigation__list"><a href="#" class = "list__anchor">About Us</a></li>
+								<li class = "navigation__list"><a href="#" class = "list__anchor">Markets &amp; Services</a></li>
+								<li class = "navigation__list"><a href="#" class = "list__anchor">You WSC Team</a></li>
+								<li class = "navigation__list"><a href="#" class = "list__anchor">News &amp; Insights</a></li>
+								<li class = "navigation__list"><a href="#" class = "list__anchor">Contact</a></li>
+							</ul>
 
-						<form action="GET" class ="search">
-							<a  href ="#" class = "search__title">Sharetitle</a>
-							<input class ="search__input" type="search" placeholder ="type and press enter to search">
-						</form>
-					</nav>
-					<!--Навігація END -->
-					
-	<!--HEADER START -->
-			<header class="header_gallery">
-				<div class="logo__conteiner">
-					<div class="logo">
-						<strong><a href="#">WSC - water syctems consalting, inc.</a></strong>
+							<form action="GET" class ="search">
+								<a  href ="#" class = "search__title">Sharetitle</a>
+								<input class ="search__input" type="search" placeholder ="type and press enter to search">
+							</form>
+						</nav>
+						<!--Навігація END -->
+
+		<!--HEADER START -->
+				<header class="header_gallery">
+					<div class="logo__conteiner">
+						<div class="logo">
+							<strong><a href="#">WSC - water syctems consalting, inc.</a></strong>
+						</div>
+						<!--Коротке резюме інформації про компанію, як частина логотипу-->
+						<article class="header__article">
+							<h4 class="header__expect">expect:</h4>
+							<h4 class="header__progress">progress</h4>
+							<p class="header__paragraph">
+							The Carmel River Reroute and San Clemente Dam Removal Project resolves a longstanding public safety concern while enhancing fish passage, sediment transport, and ecological continuity.
+							</p>
+							<a href ="#" class="header_read_more">read more<img src="img/arrow_grey_right.png" alt=""></a>
+						</article>
+						<!--Коротке резюме інформації про компанію, як частина логотипу-->
 					</div>
-					<!--Коротке резюме інформації про компанію, як частина логотипу-->
-					<article class="header__article">
-						<h4 class="header__expect">expect:</h4>
-						<h4 class="header__progress">progress</h4>
-						<p class="header__paragraph">
-						The Carmel River Reroute and San Clemente Dam Removal Project resolves a longstanding public safety concern while enhancing fish passage, sediment transport, and ecological continuity.
+	<!--END LOGO-->
+				<!--Коротке резюме інформації про компанію, як частина логотипу-->
+				<!--Galery START. Фон headera - галерея -->
+					<ul class="gallery_navigation">
+						<li class = "gallery__left"><a href="#" class="prev"></a></li> <!--Але теппер не выдображаэться стрілка  -->
+						<li  class = "gallery__number"><a href="#" class="first">1</a></li>
+						<li  class = "gallery__number"><a href="#" class="second">2</a></li>
+						<li  class = "gallery__number"><a href="#" class="third">3</a></li>
+						<li  class = "gallery__number"><a href="#" class=" forth">4</a></li>
+						<li  class = "gallery__number"><a href="#" class=" fives">5</a></li>
+						<li  class = "gallery__right"><a href="#" class="next"></a></li>
+					</ul>
+
+					<!--Galery END. Фон headera - галерея -->
+				</header>
+	<!--HEADER END -->
+	<!--MAIN SECTION START -->
+			<section class="section_main">
+				<section class="main__content clearfix">
+				<!--Left side content section START-->
+					<section class="content__left">
+						<h4 class = "content__h4">Recent News</h4>
+						<img src="img/Doors.jpg" alt="warehouse doors" class = "content_image">
+						<h5 class = "content__h5">New Project</h5>
+						<time class = "publication_date">Jan 22, 2012</time>
+						<p class = "content__p">Like our water and wastewater clients, WSC is focused on the water industry including municipal drinking water, wastewater and </p>
+						<a class = "read_more">Read more</a><i class ="arrov__right"></i>
+					</section>
+					<!--Left side content section END-->
+				<!--Right side content section START-->
+					<section class="content__right">
+						<h1 class = "content__h4">Water Systems Consulting, Inc. (WSC) </h1>
+						<p class = "content__p">provides engineering and consulting services to public and private clients in the water industry WSC endeavors to provide personalized service, sustainable solutions, and exceptional value to our Water Industry clients. 
 						</p>
-						<a href ="#" class="header_read_more">read more<img src="img/arrow_grey_right.png" alt=""></a>
-					</article>
-					<!--Коротке резюме інформації про компанію, як частина логотипу-->
+						<a class = "read_more">Read more</a><i class ="arrov__right"></i>
+					</section>
+				</section>
+				<!--Right side content section END-->
+				<!--Bottom section "Prymery markets" section START-->
+				<section class="main__markets clearfix">
+					<h4 class="content__h4 prymery">Prymery Markets</h4>
+					<a class = "markets__cta"><i class ="sprite sprite-drinking_water"></i> drinking water</a>
+					<a class = "markets__cta"><i class ="sprite sprite-wastewoter"></i>wastewater</a>
+					<a class = "markets__cta"><i class ="sprite sprite-w_resycled"></i>resycled water</a>
+					<a class = "markets__cta"><i class ="sprite sprite-w_resourse"></i>water reasorsers</a>
+				</section>
+				<!--Bottom section "Prymery markets" section END-->
+			</section>
+	<!--MAIN SECTION END -->
+	<!--FOOTER START -->
+			<footer>
+			<!--Contacts section START-->
+				<div class="contact">
+					<p class="contact__paragraph">Phone: 619-807-8398  <span>|</span>  info@wsc-inc.com © Copyright 2012 WSC <span>|</span> Privacy Policy <span>|</span> Credit: Konig Media</p>
 				</div>
-<!--END LOGO-->
-			<!--Коротке резюме інформації про компанію, як частина логотипу-->
-			<!--Galery START. Фон headera - галерея -->
-				<ul class="gallery_navigation">
-					<li class = "gallery__left"><a href="#" class="prev"></a></li> <!--Але теппер не выдображаэться стрілка  -->
-					<li  class = "gallery__number"><a href="#" class="first">1</a></li>
-					<li  class = "gallery__number"><a href="#" class="second">2</a></li>
-					<li  class = "gallery__number"><a href="#" class="third">3</a></li>
-					<li  class = "gallery__number"><a href="#" class=" forth">4</a></li>
-					<li  class = "gallery__number"><a href="#" class=" fives">5</a></li>
-					<li  class = "gallery__right"><a href="#" class="next"></a></li>
+			<!--Contacts section END-->
+			<!--Social section START-->
+				<ul class="social_conteiner clearfix">
+					<li class="social__list"><a href="#"  class = "social facebook"></a></li>
+					<li class="social__list"><a href="#" class = "social twitter"></a></li>
+					<il class="social__list"><a href="#" class = "social in"></a></il>
 				</ul>
-				
-				<!--Galery END. Фон headera - галерея -->
-			</header>
-<!--HEADER END -->
-<!--MAIN SECTION START -->
-		<section class="section_main">
-			<section class="main__content clearfix">
-			<!--Left side content section START-->
-				<section class="content__left">
-					<h4 class = "content__h4">Recent News</h4>
-					<img src="img/Doors.jpg" alt="warehouse doors" class = "content_image">
-					<h5 class = "content__h5">New Project</h5>
-					<time class = "publication_date">Jan 22, 2012</time>
-					<p class = "content__p">Like our water and wastewater clients, WSC is focused on the water industry including municipal drinking water, wastewater and </p>
-					<a class = "read_more">Read more</a><i class ="arrov__right"></i>
-				</section>
-				<!--Left side content section END-->
-			<!--Right side content section START-->
-				<section class="content__right">
-					<h1 class = "content__h4">Water Systems Consulting, Inc. (WSC) </h1>
-					<p class = "content__p">provides engineering and consulting services to public and private clients in the water industry WSC endeavors to provide personalized service, sustainable solutions, and exceptional value to our Water Industry clients. 
-					</p>
-					<a class = "read_more">Read more</a><i class ="arrov__right"></i>
-				</section>
-			</section>
-			<!--Right side content section END-->
-			<!--Bottom section "Prymery markets" section START-->
-			<section class="main__markets clearfix">
-				<h4 class="content__h4 prymery">Prymery Markets</h4>
-				<a class = "markets__cta"><i class ="sprite sprite-drinking_water"></i> drinking water</a>
-				<a class = "markets__cta"><i class ="sprite sprite-wastewoter"></i>wastewater</a>
-				<a class = "markets__cta"><i class ="sprite sprite-w_resycled"></i>resycled water</a>
-				<a class = "markets__cta"><i class ="sprite sprite-w_resourse"></i>water reasorsers</a>
-			</section>
-			<!--Bottom section "Prymery markets" section END-->
-		</section>
-<!--MAIN SECTION END -->
-<!--FOOTER START -->
-		<footer>
-		<!--Contacts section START-->
-			<div class="contact">
-				<p class="contact__paragraph">Phone: 619-807-8398  <span>|</span>  info@wsc-inc.com © Copyright 2012 WSC <span>|</span> Privacy Policy <span>|</span> Credit: Konig Media</p>
-			</div>
-		<!--Contacts section END-->
-		<!--Social section START-->
-			<ul class="social_conteiner clearfix">
-				<li class="social__list"><a href="#"  class = "social facebook"></a></li>
-				<li class="social__list"><a href="#" class = "social twitter"></a></li>
-				<il class="social__list"><a href="#" class = "social in"></a></il>
-			</ul>
-		<!--Social section END-->
-		</footer>
-<!--FOOTER END-->
+			<!--Social section END-->
+			</footer>
+	<!--FOOTER END-->
+		</div> 	<!-- div "wrapper" END -->
 	</div>
+	<!--
 <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+-->
 	<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
