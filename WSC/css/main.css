@@ -129,13 +129,15 @@ body {
 .prev,.next{
 	display:inline-block;
 	width: 24px;
-	height: 22px;
+	height: 21px;
+	cursor: pointer;
 }
 .prev{
 	background-image: url(../img/arrow_grey_left.png);
 }
 .next{
 	background-image: url(../img/arrow_grey_right.png);
+    margin-left: 6px;
 }
 
 /*------ Content typography ---------*/
@@ -233,7 +235,6 @@ body{
 	position: relative;
     width: 1003px;
     margin: 0 auto;
-    height: 1040px;
 }
 .section_main { 
 	height: auto;
@@ -338,12 +339,12 @@ nav{
 	padding-left: 19px;
 }
 .gallery_navigation{
-	display: block;
-	position:absolute;
-	top:87%;
-	left:9%;
-	color:azure;
-	font-size: 24px;
+    display: block;
+    position: absolute;
+    top: 95%;
+    left: 8%;
+    color: #F4F5F5;
+    font-size: 24px;
 }
 /*------ Content elements  ---------*/
 .main__content{
