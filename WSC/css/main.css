@@ -51,7 +51,7 @@ body {
 	color:#aaa7a4;
 	text-shadow:1px 1px black;
 	text-transform: uppercase;
-	font-size: 14px;	
+	font-size: 13px;	
 	font-family: "Times New Roman", Times, serif;
 }
 .search__title{
@@ -230,7 +230,7 @@ body{
 	background-position: top;
 }
 .conteiner {
-	 position: relative;
+	position: relative;
     width: 1003px;
     margin: 0 auto;
     height: 1040px;
@@ -254,13 +254,13 @@ body{
 }
 /*------ navigation  background---------*/
 nav{
-	 height: 95px;
+	height: 95px;
     background-image: url(../img/nav_bg.png);
     position: absolute;
     z-index: 2;
     left: 0;
     right: 0;
-	margin: 1px -234px;
+    margin: 1px -228px;
 }
 
 /*
@@ -275,7 +275,7 @@ nav{
 	display: inline-block;
 	float:left;
 	padding-top: 25px;
-	padding-left:15px;
+	padding-left:12px;
 }
 .list__anchor {
 	color:rgba(235, 221, 221, 0.75) ;
@@ -405,8 +405,8 @@ footer{
 }
 .contact {
 	float: left;
-	padding-left: 38%;
-	padding-right: 20px;
+    padding-left: 29%;
+    padding-right: 20px;
 }
 
 /*-------------------------------------------------
@@ -450,10 +450,10 @@ Grafic elements styling....
 }
 .sprite-w_resycled {
 	width: 49px;
-	height: 46px;
-	background-position: -12px -573px;
-	top:23%;
-	left:13%
+    height: 46px;
+    background-position: -12px -573px;
+    top: 27%;
+    left: 8%;
 }
 .sprite-w_resourse {
 	 width: 42px;
