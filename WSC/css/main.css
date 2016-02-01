@@ -245,11 +245,10 @@ body{
 }
 
 /*------ header ---------*/
-.header_gallery {
+.header {
 	margin: 0 -80px;
     width: 1163px;
     height: 521px;
-    background: url(../img/header.jpg) no-repeat;
     border-bottom: 10px solid #095a84;
     position: relative;
 }
@@ -258,10 +257,10 @@ nav{
 	height: 95px;
     background-image: url(../img/nav_bg.png);
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     left: 0;
     right: 0;
-    margin: 1px -228px;
+    margin: 0px -228px;
 }
 
 /*
@@ -311,10 +310,13 @@ nav{
 }
 .logo__conteiner{
 	height: 100%;
-	width: 383px;
-	background: url(../img/bg_texture.png);
-	float: right;
-	margin-right: 118px;
+    width: 383px;
+    background: url(../img/bg_texture.png);
+    float: right;
+    margin-right: 118px;
+    position: absolute;
+    z-index: 1;
+    left: 56%;
 }	
 .logo{
     width: 383px;
