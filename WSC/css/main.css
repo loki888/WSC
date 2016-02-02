@@ -141,7 +141,7 @@ body {
 }
 
 /*------ Content typography ---------*/
-.content__h4{
+.content__main_header{
 	color:#403d3e;
 	font-size: 29px;
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -165,12 +165,11 @@ body {
 	padding-bottom: 11px;
 }
 .content__p{
-	color:#6f7176;
-	font-size: 11px;
-	font-family: 'Open Sans Condensed', sans-serif;
-	letter-spacing: 0.5px;
-	margin: 0;
-	padding-bottom: 15px;
+	color: #6f7176;
+    font-size: 11px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 0.5px;
+    margin: 0;
 }
 .read_more{
 	text-decoration: none;
@@ -213,17 +212,13 @@ body {
 	color:#bbbdbf;
 	font-size: 11px;
 }
-
-
 /* ---------------------------
 2. General Styles
 _--------------------------- */
-
 html {
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
 }
-
 /*--------------------------------
 3.Layout
 ---------------------------------*/
@@ -236,6 +231,10 @@ body{
     width: 1003px;
     margin: 0 auto;
 }
+.wrapper {
+	position: relative;
+	overflow: hidden;
+}
 .section_main { 
 	height: auto;
 	margin: 0 auto;
@@ -243,7 +242,6 @@ body{
 .section_main{
 	padding:0;
 }
-
 /*------ header ---------*/
 .header {
 	margin: 0 -80px;
@@ -262,10 +260,6 @@ nav{
     right: 0;
     margin: 0px -228px;
 }
-
-/*
-
-
 /*------ navigation  layout ---------*/
 .navigation{
 	float: left;
@@ -473,12 +467,12 @@ Footer
 	margin-top: -15px;
 }
 .social__list{
-	display: inline-block;
+	display:block;
 	float:left;
 }
 .social {
 	display: block;
-	width: 35px;
+	width: 34px;
 	height: 34px;
 	float: left;
 	margin-left: 5px;
@@ -522,7 +516,3 @@ Clearfix - очитка флоатів
 
 
 
-.wrapper {
-	position: relative;
-	overflow: hidden;
-}
